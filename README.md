@@ -25,8 +25,8 @@ Wireshark je k&nbsp;dispozici zdarma a mohou ho využívat například správci 
     <br />![Spusťte virtuální stroj se serverem](img/wireshark_03_vbox-run.png)
 1. Spusťte druhý virtuální stroj &mdash; klienta<br />
     Zatímco server bude poskytovat webový obsah ke stažení, virtuální stroj s&nbsp;Windows bude sloužit ke spuštění Wiresharku a snímání datagramů.<br />![Spusťte virtuální stroj s Win 10](img/wireshark_04_win10lab.png)
-1. &nbsp;<br />![](img/wireshark_05_nastaveni.png)
-1. V&nbsp;nastavení síťové karty obou strojů zvolte položku `Vnitřní síť`.<br />![Přepnutí do vnitřní sítě VirtualBoxu](img/wireshark_060_vnitrni-sit.png)
+1. V&nbsp;nastavení síťové karty obou strojů zvolte položku `Vnitřní síť`:<br />![](img/wireshark_05_nastaveni.png)<br />
+    <br />![Přepnutí do vnitřní sítě VirtualBoxu](img/wireshark_060_vnitrni-sit.png)
 1. Nastavte IP adresu klientského stroje na 192.168.0.10/24<br />![](img/wireshark_080_ip-adresa.png)
 1. Na klientském stroji s&nbsp;Windows spusťte Wireshark<br />![](img/wireshark_070_wireshark.png)
 1. V&nbsp;prohlížeči na klientském stroji otevřete webovou prezentaci ze serveru &mdash; měla by se vám zobrazit úvodní stránka Apache.<br />![](img/wireshark_090_over-web.png)
