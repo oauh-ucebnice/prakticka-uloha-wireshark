@@ -43,3 +43,12 @@ Nyní tedy máte spuštěny dva virtuální stroje:
 1. Až komunikace skončí, vypněte snímání datagramů<br />![Ukončení snímání](img/wireshark_120_ukonci-snimani.png)
 1. Vyfiltrujte si pouze komunikaci HTTP v&nbsp;rámci jednoho TCP spojení<br />![Zapnutí filtru na konkrétní TCP spojení](img/wireshark_130_filtr.png)
 1. Prozkoumejte, zda průběh komunikace odpovídá poznatkům o fungování protokolu TCP ze 2. ročníku<br />![Nasnímané datagramy](img/wireshark_140_nasnimano.png)
+1. Wireshark vám zobrazí:
+    - seznam nasnímaných datagramů
+    - podrobné informace o konkrétním datagramu, které si můžete po vrstvách rozbalit a prohlédnout (informace jsou již dekódovány do čitelné podoby)
+    - hexadecimální zápis datagramu (přesné hodnoty nasnímaných oktetů tak, jak dorazily k&nbsp;síťové kartě)
+
+    ![Umístění informací ve Wiresharku](img/wireshark_150_co-je-kde.png)
+1. Po skončení úlohy vypněte stroje:
+    - Windows vypněte standarně _Start &rarr; Vypnout..._
+    - Do Debianu se přihlaste stejnými přihlašovacími údaji jako u stroje s&nbsp;Windows a vypněte jej příkazem: `sudo systemctl poweroff` (musíte znovu zadat heslo).
