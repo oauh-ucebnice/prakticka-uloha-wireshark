@@ -14,6 +14,7 @@ Wireshark je k&nbsp;dispozici zdarma a mohou ho využívat například správci 
 
 ## Postup úlohy:
 
+### Připravte si virtuální stroje:
 1. Nejprve si ve VirtualBoxu připravte virtální stroj s&nbsp;webovým serverem<br />
     Obraz virtuálního disku s&nbsp;nainstalovaným webovým serverem máte připraven:<br />
     - na serveru `\\dilna` ve složce `\\dilna\VM-sablony`
@@ -28,6 +29,13 @@ Wireshark je k&nbsp;dispozici zdarma a mohou ho využívat například správci 
 1. V&nbsp;nastavení síťové karty obou strojů zvolte položku `Vnitřní síť`:<br />![](img/wireshark_05_nastaveni.png)<br />
     <br />![Přepnutí do vnitřní sítě VirtualBoxu](img/wireshark_060_vnitrni-sit.png)
 1. Nastavte IP adresu klientského stroje (Windows) na 192.168.0.10/24<br />![](img/wireshark_080_ip-adresa.png)
+
+
+Nyní tedy máte spuštěny dva virtuální stroje:
+1. webový server (Debian + Apache)
+2. Klientský stroj (Windows)
+
+### Spusťte snímání datagramů a analyzujte datagramy:
 1. Na klientském stroji (Windows) spusťte Wireshark<br />![](img/wireshark_070_wireshark.png)
 1. V&nbsp;prohlížeči na klientském stroji otevřete webovou prezentaci ze serveru &mdash; měla by se vám zobrazit úvodní stránka Apache.<br />![](img/wireshark_090_over-web.png)
 1. Spusťte snímání datagramů<br />![](img/wireshark_100_spust-snimani.png)
