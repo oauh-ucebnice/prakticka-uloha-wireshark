@@ -15,13 +15,17 @@ Wireshark je k&nbsp;dispozici zdarma a mohou ho využívat například správci 
 ## Postup úlohy:
 
 1. Nejprve si ve VirtualBoxu připravte virtální stroj s&nbsp;webovým serverem<br />
-    Obraz virtuálního disku s&nbsp;nainstalovaným webovým serverem máte připraven na serveru `\\dilna` ve složce `\\dilna\VM-sablony`
-    <br />![](img/wireshark_01_vbox-new.png)
-1. &nbsp;<br />![](img/wireshark_02_vbox-create.png)
-1. &nbsp;<br />![](img/wireshark_03_vbox-run.png)
+    Obraz virtuálního disku s&nbsp;nainstalovaným webovým serverem máte připraven:<br />
+    - na serveru `\\dilna` ve složce `\\dilna\VM-sablony`
+    <br />![Vytvoření nového VM ve VirtualBoxu](img/wireshark_01_vbox-new.png)
+1. Ponechte 1&nbsp;GB operační paměti a připojte obraz virtuálního disku:<br />
+    ![Nastavení nového virtuálního stroje](img/wireshark_02_vbox-create.png)
+1. Spusťte druhý virtuální stroj &mdash; klienta<br />
+    Zatímco server bude poskytovat webový obsah ke stažení, virtuální stroj s&nbsp;Windows bude sloužit ke spuštění Wiresharku a snímání datagramů.
+    <br />![](img/wireshark_03_vbox-run.png)
 1. &nbsp;<br />![](img/wireshark_04_win10lab.png)
 1. &nbsp;<br />![](img/wireshark_05_nastaveni.png)
-1. &nbsp;<br />![](img/wireshark_060_vnitrni-sit.png)
+1. V&nbsp;nastavení síťové karty obou strojů zvolte položku `Vnitřní síť`.<br />![Přepnutí do vnitřní sítě VirtualBoxu](img/wireshark_060_vnitrni-sit.png)
 1. &nbsp;<br />![](img/wireshark_070_wireshark.png)
 1. &nbsp;<br />![](img/wireshark_080_ip-adresa.png)
 1. &nbsp;<br />![](img/wireshark_090_over-web.png)
