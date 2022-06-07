@@ -15,10 +15,14 @@ Wireshark je k&nbsp;dispozici zdarma a mohou ho využívat například správci 
 ## Postup úlohy:
 
 ### Připravte si virtuální stroje:
-1. Nejprve si ve VirtualBoxu připravte virtální stroj s&nbsp;webovým serverem<br />
-    Obraz virtuálního disku s&nbsp;nainstalovaným webovým serverem máte připraven:<br />
-    - na serveru `\\dilna` ve složce `\\dilna\VM-sablony`
-    - Soubor se jmenuje `Debian-lab-pos-www.vdi`
+1. Nejprve si stáhněte virtuální disk s&nbsp;připraveným webovým serverem.<br />
+    - Obraz virtuálního disku s&nbsp;nainstalovaným webovým serverem máte připraven na serveru `\\dilna` ve sdílené složce `\\dilna\VM-sablony`. Soubor se jmenuje `Debian-lab-pos-www.vdi`<br />
+      Sdílenou složku si připojíte pomocí Průzkumníka souborů:<br />
+      ![Připojení ke sdílené složce](img/wireshark_000_pripojeni-dilna.png)
+    - Obraz virtuálního disku si zkopírujte na disk `D:` do kořenového adresáře.<br />
+      (Pokud už obraz na disku `D:` máte, můžete použít stávající.)
+
+1. Ve VirtualBoxu si připravte virtální stroj s&nbsp;webovým serverem<br />
     <br />![Vytvoření nového VM ve VirtualBoxu](img/wireshark_01_vbox-new.png)
 1. Ponechte 1&nbsp;GB operační paměti a připojte obraz virtuálního disku:<br />
     ![Nastavení nového virtuálního stroje](img/wireshark_02_vbox-create.png)
